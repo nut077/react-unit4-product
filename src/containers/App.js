@@ -26,7 +26,7 @@ class App extends Component {
       ]
     })*/
 
-    this.setState((prevState) => {
+    this.setState(prevState => {
       const {products} = prevState;
       const index = products.findIndex(product => product.id === id);
       const product = products[index];
