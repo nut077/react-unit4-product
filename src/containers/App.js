@@ -5,7 +5,7 @@ class App extends Component {
 
   state = {
     products: [
-      {id: 1, name: 'test#1', amount: 10, buy: 0},
+      {id: 1, name: 'Product#1', amount: 10, buy: 0},
       {id: 2, name: 'Product#2', amount: 9, buy: 0},
       {id: 3, name: 'Product#3', amount: 8, buy: 0},
       {id: 4, name: 'Product#4', amount: 7, buy: 0},
